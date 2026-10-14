@@ -1,0 +1,22 @@
+# Ignore everything
+/*
+
+# Allow .gitignore
+!/.gitignore
+
+# Allow models directory
+!/models/
+
+# Ignore everything inside models
+/models/**
+
+# Preserve subdirectories
+!/models/**/
+
+# Only include Python and Jupyter files
+!/models/**/*.py
+!/models/**/*.ipynb
+
+# Ignore cache
+**/__pycache__/
+**/.ipynb_checkpoints/
